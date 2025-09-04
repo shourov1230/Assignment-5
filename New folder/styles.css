@@ -67,7 +67,7 @@ h1 {
       margin-top: 10px;
       padding: 10px 20px;
       background: #014421;
-      color: white;
+      color: white ;
       text-decoration: none;
       border-radius: 8px;
       transition: 0.3s;
@@ -75,7 +75,7 @@ h1 {
       
     }
 
-    .card a:hover {
+    .card a :hover {
       background: #028a0f;
     }
 
@@ -147,11 +147,68 @@ h1 {
 
 
 
-.card-box {
+.card-box{
   max-width: 1800px;
   height: 1140px;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 
+}
+
+
+
+
+
+
+ 
+.Copyright {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #eaf3e7;
+      padding: 10px 15px;
+    }
+ 
+.Copyright h3 {
+       margin: 0;
+      font-size: 18px
+    }
+.clear-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #014421;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+   
+    .call-item {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 15px;
+    }
+    .call-item h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .call-item p {
+      margin: 2px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+.card-section history {
+  width: 400px;
+  height: 1140px;
+}
+.card-section-box {
+      display: flex;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+      width: 360px;
+      height: 580px;
+      padding: 20px;
 }
